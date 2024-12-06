@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3000/blockchain';
+const API_URL = 'https://block-back.onrender.com/blockchain';
 
 export const getChain = async () => {
     try {
